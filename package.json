@@ -1,0 +1,30 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "javascript pure application",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkov85/js-constructor.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Artyom <admin@webcreator.top>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volkov85/js-constructor/issues"
+  },
+  "homepage": "https://github.com/volkov85/js-constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "css": "^3.0.0"
+  }
+}
